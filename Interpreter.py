@@ -4,7 +4,7 @@ import math
 
 def Interpret(AST_TREE):
 
-    for Command in AST_TREE["body"]["commands"]: # May god have mercy on your soul when trying to find anything in this junk of a interpreter
+    for Command in AST_TREE["body"]["commands"]:
         for i in Command["arguments"]:
             if i.type == "TT_VARIABLE":
                 for j in AST_TREE["body"]["defined"]["Variables"]:
