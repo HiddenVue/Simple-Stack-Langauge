@@ -30,5 +30,5 @@ elif len(argv) == 2:
     AST_TREE = Parser.Parse(TokenizedData)
     AST_TREE = Interpreter.Interpret(AST_TREE)
     
-    print(AST_TREE)
+    #print(AST_TREE)
 
